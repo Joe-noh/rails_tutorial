@@ -23,6 +23,8 @@ group :assets do
 end
 
 group :test do
+  gem 'rspec-rails'
+  gem 'spork'
   gem 'capybara'
 end
 
